@@ -10,9 +10,9 @@
   --DarkGrayishBlue: hsl(228, 12%, 48%);
   --White: hsl(0, 0%, 100%);
   /* font size */
-  --lg: 6.5vw;
-  --md: 3vw;
-  --sm: 2vw;
+  --lg: 6.5rem;
+  --md: 3rem;
+  --sm: 2rem;
 }
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Roboto:wght@400;700&display=swap");
 * {
@@ -33,6 +33,7 @@ html {
   margin: 0 auto;
   flex-direction: column;
   overflow: hidden;
+  padding: 2rem;
 }
 .card {
   background-color: var(--White);
@@ -105,7 +106,7 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 3vw;
+  padding: 3rem;
   gap: 20px;
   cursor: pointer;
 }
@@ -130,11 +131,11 @@ html {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
-@media (max-width: 425px) {
+@media (max-width: 800px) {
   :root {
-    --lg: 8vw;
-    --md: 4vw;
-    --sm: 4vw;
+    --lg: 5rem;
+    --md: 3rem;
+    --sm: 2rem;
   }
   .card {
     display: grid;
